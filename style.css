@@ -189,3 +189,31 @@ main {
     line-height: 50px;
     margin: 0 0 30px 30px;
 }
+@media only screen and (max-width: 800px){
+    .rectangle2 {
+        width: 70%;
+        height: auto;
+        gap: 5px;
+    }   
+    .pav1 {
+        font-size: max(42px, 5cqw);
+        left: 20px;
+    }
+    .pav2 {
+        font-size: max(54px, 6cqw);
+        bottom: 30px;
+        left: 40px;
+    }
+    .tekstas {
+        display: flex;
+        height: 72px;
+        width: 92%;
+        color: #000000;
+        text-align: left;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0 auto 0 30px;
+        align-items: flex-end; 
+    }
+}
